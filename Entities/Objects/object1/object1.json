@@ -1,0 +1,13 @@
+{
+	"name":"watson",
+	"modelURL":"https://raw.githubusercontent.com/ForgeDH/csc-graphics-game/master/Gloom/box.obj",
+	"textureURL":"https://rawgit.com/ForgeDH/csc-graphics-game/master/Gloom/Entities/Objects/object1/MELogo.jpg",
+	"scale": 1.0,
+	"rotation": [0.0, 0.0, 0.0],
+	
+	"mass":1,
+	"boxSize":{"x":1, "y":1, "z":1},
+	"boxPos":{"x":0, "y":10, "z":0},
+	"boxRot":{"x":0, "y":0, "z":0},
+	"tickFunc":"boxTick"
+}

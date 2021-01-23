@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Gloom</title>
+		<style>
+			canvas {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        clear: left;
+      }
+			img {display: none;}
+			#credits {
+			  float: right;
+			}
+		</style>
+	</head>
+	<body onload="main()">
+	  <img id="watson25" src="Watson_25.png" />
+	  <img id="watson50" src="Watson_50.png" />
+	  <img id="watson75" src="Watson_75.png" />
+	  <img id="watson100" src="Watson_100.png" />
+	  <img id="doomArt" src="doom.jpg" />
+	  <img id="HUDimgBack" src="HUDimg.jpg" />
+	  <img id="gameOverImage" src="Game_Over.png" />
+	  <img id="controlsImage" src="controls.png" />
+	  <img id="creditsImage" src="Credits.png" />
+	  <img id="crosshair1" src="crosshair.png" />
+		<script src="Dependencies/cannon.min.js"></script>
+		<script src="Dependencies/three.min.js"></script>
+		<script src="Dependencies/OBJLoader.js"></script>
+		<script src="Dependencies/input.js"></script>
+		<script src="entity.js"></script>
+		<script src="weapon.js"></script>
+		<script src="scene.js"></script>
+		<script src="staticScenes.js"></script>
+		<script src="tickFunctions.js"></script>
+		<script src="HPack.js"></script>
+		<script type="text/javascript" src="mainFlow.js"></script>
+	</body>
+</html>

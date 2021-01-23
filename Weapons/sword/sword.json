@@ -1,0 +1,18 @@
+{
+	"name":"sword",
+	"modelURL":"https://raw.githubusercontent.com/ForgeDH/csc-graphics-game/master/Gloom/Weapons/sword/Sword1.obj",
+	"textureURL":"https://rawgit.com/ForgeDH/csc-graphics-game/master/Gloom/Weapons/sword/sword.jpg",
+
+	"posOffset":{"x":-0.5, "y":-1.5, "z":-1},
+	"rotOffset":{"x":0, "y":0, "z":0},
+	
+	"damage":26,
+	"knockback":10,
+	"range":10,
+	"angle":0.785398,
+	"cooldown":60,
+	
+	"hitFunc":"coneHitbox",
+	"tickFunc":"weaponCDTick",
+	"animationFunc":"swingAnimateFunc"
+}
